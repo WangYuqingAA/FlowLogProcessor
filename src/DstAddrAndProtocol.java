@@ -37,6 +37,6 @@ public class DstAddrAndProtocol {
 
     @Override
     public String toString() {
-        return new StringBuilder(dstPort).append(",").append(protocol).toString();
+        return dstPort + "," + protocol;
     }
 }

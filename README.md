@@ -1,18 +1,17 @@
-## Getting Started
+# Flow Log Processing Project
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Overview
 
-## Folder Structure
+This project is designed to generate, process, and analyze synthetic network flow logs using Java. The project consists of three main components:
 
-The workspace contains two folders by default, where:
+- **Flow Log Generator**: Generates synthetic flow log data that simulates various network traffic patterns.
+- **Tag Rule Generator**: Creates tag rules that can be used to categorize flow logs.
+- **Flow Log Processor**: Processes the generated flow logs and tag rules to produce meaningful insights, such as counting unique port-protocol combinations and tag occurrences.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Project Structure
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+The workspace is organized into the following folders:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- **`src`**: Contains all the Java source files for the project.
+- **`lib`**: Contains any external libraries or dependencies required by the project.
+- **`bin`**: The default output directory where the compiled class files are stored.
